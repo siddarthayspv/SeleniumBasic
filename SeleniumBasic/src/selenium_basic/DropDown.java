@@ -39,8 +39,7 @@ public class DropDown {
 			System.out.println(option.getText());
 		}
 		
-		ideDropdown.selectByIndex(0);
-		Thread.sleep(3000);
+		
 		ideDropdown.selectByValue("ij");
 		Thread.sleep(3000);
 		ideDropdown.selectByVisibleText("NetBeans");
